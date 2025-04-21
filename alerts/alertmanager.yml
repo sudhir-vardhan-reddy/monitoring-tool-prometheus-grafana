@@ -1,8 +1,8 @@
 global:
   smtp_smarthost: 'smtp.gmail.com:587'
-  smtp_from: 'sudhirvardhan02@gmail.com'
-  smtp_auth_username: 'sudhirvardhan02@gmail.com'
-  smtp_auth_password: 'xfyq aaqu qgiy ekmx' # Generate app password from Google account
+  smtp_from: 'your_mail@gmail.com'
+  smtp_auth_username: 'your_mail@gmail.com'
+  smtp_auth_password: 'your_app_password' # Generate app password from Google account
   smtp_require_tls: true
 
 route:
@@ -11,4 +11,4 @@ route:
 receivers:
   - name: 'email-alert'
     email_configs:
-      - to: 'sudhirvardhan02@gmail.com'
+      - to: 'your_mail@gmail.com'
